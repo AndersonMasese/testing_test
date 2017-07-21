@@ -8,6 +8,8 @@ install:
   - pip install coveralls
 # command to run tests
 #script: nosetests --with-coverage
+
+script: echo foo
 after_success:  
   - coveralls
   
