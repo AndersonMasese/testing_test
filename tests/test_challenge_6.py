@@ -1,5 +1,5 @@
 
-from challenge_6 import longest
+from testing_tester.challenge_6 import longest
 
 import unittest
 
