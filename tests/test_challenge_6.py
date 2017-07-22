@@ -1,5 +1,7 @@
+
+from challenge_6 import longest
+
 import unittest
-from challenge_6 import*
 
 
 class Test(unittest.TestCase):
@@ -33,7 +35,4 @@ class Test(unittest.TestCase):
         t=4
         self.assertGreater(5,t)
 
-    def test_compare_dict_size(self):
-        dic1={'a':'b','c':'d'}
-        dic2={'1':'age','gender':'male'}
-        self.assertDictNotEqual(dic1,dic2,'the dictionaries under test are not equal')
+   
