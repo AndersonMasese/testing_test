@@ -6,5 +6,6 @@ omit=
     *docopt.py*
     *docopt*
     *tests/*
+    *models/amity.py*
 [html]
 directory = coverage_html
